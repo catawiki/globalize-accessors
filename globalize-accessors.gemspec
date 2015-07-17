@@ -5,11 +5,11 @@ Gem::Specification.new do |s|
   s.name        = "globalize-accessors"
   s.version     = Globalize::Accessors::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Tomasz Stachewicz", "Wojciech Pietrzak", "Steve Verlinden", "Robert Pankowecki", "Chris Salzberg"]
-  s.email       = ["tomekrs@o2.pl", "steve.verlinden@gmail.com", "robert.pankowecki@gmail.com", "rpa@gavdi.com", "chrissalzberg@gmail.com"]
-  s.homepage    = "http://rubygems.org/gems/globalize-accessors"
+  s.authors     = ["Rutger Wessels"]
+  s.email       = ["r.wessels@catawiki.nl"]
+  s.homepage    = "https://github.com/catawiki/globalize-accessors"
   s.summary     = "Define methods for accessing translated attributes"
-  s.description = "Define methods for accessing translated attributes"
+  s.description = "Define methods for accessing translated attributes. Forked from https://github.com/globalize/globalize-accessors"
 
   s.required_rubygems_version = ">= 1.3"
   s.rubyforge_project         = "globalize-accessors"

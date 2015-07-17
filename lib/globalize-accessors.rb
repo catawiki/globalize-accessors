@@ -16,7 +16,7 @@ module Globalize::Accessors
   end
 
   def localized_attr_name_for(attr_name, locale)
-    "#{attr_name}_#{locale.to_s.underscore}"
+    "#{attr_name}_#{locale.to_s}"
   end
 
   private
